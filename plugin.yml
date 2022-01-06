@@ -1,0 +1,14 @@
+name: PollWizard
+main: me.yourselvs.pollwizard.PollWizard
+version: 1.0
+api-version: 1.18
+commands:
+   poll:
+      description: View information about PollWizard and access moderation commands
+      usage: "Usage: /<command>"
+      aliases: [pollwizard]
+      permission: pollwizard.mod
+   polls:
+      description: View available polls
+      usage: "Usage: /<command>"
+      permission: pollwizard.view
